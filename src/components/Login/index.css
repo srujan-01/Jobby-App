@@ -1,0 +1,58 @@
+.bg-container {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 20px;
+  background-color: #1f222a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18vw;
+}
+
+.logo {
+  height: 50px;
+  width: 120px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 12px;
+}
+.label {
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+
+.input {
+  background-color: transparent;
+  color: grey;
+  border: 1px solid grey;
+  font-size: 10px;
+  padding: 4px;
+}
+
+.button {
+  background-color: #4f46e5;
+  color: white;
+  font-size: 12px;
+  width: stretch;
+  border: 0px solid white;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 6px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}

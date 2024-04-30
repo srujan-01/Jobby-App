@@ -1,0 +1,85 @@
+.details-container {
+  background-color: black;
+  height: 92vh;
+  padding: 40px;
+}
+.details-card {
+  padding: 20px;
+  background-color: grey;
+  height: 90%;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.logo-role {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  height: 80px;
+  width: 80px;
+}
+.role-card {
+  margin-left: 20px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating-star {
+  display: flex;
+  align-items: center;
+}
+.star-icon {
+  color: gold;
+}
+.rating {
+  margin-left: 20px;
+}
+.price-salary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-card {
+  display: flex;
+  align-items: center;
+}
+.location-job {
+  display: flex;
+  align-items: center;
+}
+.second {
+  margin-left: 20px;
+}
+.location {
+  margin-left: 20px;
+}
+
+.icon {
+  color: white;
+}
+
+.link {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skill-image {
+  height: 50px;
+  width: 50px;
+}
+
+.failure-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view {
+  height: 50vh;
+  width: 50vw;
+}
