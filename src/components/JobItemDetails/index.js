@@ -74,7 +74,7 @@ class JobItemDetails extends Component {
         jobItemData: updatedJobDetails,
         similarJobs: similarJobsData,
         apiStatus: apiStatusValues.success,
-      },this.getJobItemDetails)
+      }s)
     } else {
       this.setState({apiStatus: apiStatusValues.failure})
     }
@@ -82,7 +82,7 @@ class JobItemDetails extends Component {
   onClickRetry = () => {
     this.getJobItemDetails()
   }
-  renderSkills = async() => {
+  renderSkills = () => {
     const {jobItemData}=this.state 
     const {skills}= jobItemData
     return (
